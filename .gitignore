@@ -1,0 +1,36 @@
+# Node modules (nunca se suben)
+node_modules/
+
+# Archivos de entorno (contienen contraseñas, usuarios, etc.)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+logs/
+*.log
+
+# Salidas de test
+coverage/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Producción
+dist/
+build/
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Sistemas operativos
+*.swp
+*.swo
